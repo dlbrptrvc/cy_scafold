@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+
+# VSCode
+.vscode/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/results/
+cypress/fixtures/
+
+# Cypress test run artifacts
+coverage/
+*.lcov
+*.nyc_output/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+bower_components/
+
+# Build output directories
+dist/
+build/
+tmp/
+out/
