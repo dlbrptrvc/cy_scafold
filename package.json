@@ -1,0 +1,26 @@
+{
+	"name": "cy_scaffold",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "cypress open --e2e --browser=chrome"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"devDependencies": {
+		"@cypress/grep": "^4.1.0",
+		"cypress": "^13.16.0",
+		"cypress-file-upload": "^5.0.8",
+		"cypress-fill-command": "^1.0.2",
+		"cypress-if": "^1.13.1",
+		"cypress-plugin-xhr-toggle": "^1.2.1",
+		"cypress-recurse": "^1.35.3",
+		"cypress-wait-until": "^3.0.2",
+		"pdf-parse": "^1.1.1"
+	},
+	"dependencies": {
+		"cy_scaffold": "file:"
+	}
+}
